@@ -3,11 +3,13 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Agraria Alberti/Productos</title>
-    <link rel="stylesheet" href="normalize.css">
-    <link rel="stylesheet" href="visual.css">
+    <title>Productos</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
+    <link rel="stylesheet" href="/css/Productos.css">
 </head>
+
 <body>
+
     <header class="content-header">
         <div class="logo">
             <a href="#">Agraria Alberti</a>
@@ -18,26 +20,46 @@
             <a href="Contactos.html">Contactos</a>
             <a href="Nosotros.html">Nosotros</a>
         </nav>
-        <h2 class="title">Productos</h2>
-        <h3 class="sub-title">Los productos son los siguentes</h3>
     </header>
-    <article class="articulos">
-        <section class="productos-img">
-        <div class="img">
-            <img src="img/sardo3.jpg" alt="Queso Sardo" height="200">
-            <p>Este es el queso Sardo</p>
 
-            <img src="img/gouda.jpg" alt="Queso gouda" height="200">
-            <p>Este es el queso Gouda</p>
-            
-            <img src="img/cremoso.jpg" alt="Queso Cremoso" height="200">
-            <p>Este es el queso Cremoso</p>
-        </div>    
-        
-        </section>
+    <div class="row row-cols-1 row-cols-md-1 g-4">
+        <div class="col">
+          <div class="card h-100 text-bg-success">
+            <img src="img/cremoso.jpg" class="card-img-top" alt="Queso Cremoso">
+            <div class="card-body">
+              <h5 class="card-title">Queso Cremoso</h5>
+              <p class="card-text">El queso cremoso es conocido por su textura suave y cremosa, que se deshace fácilmente.</p>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card h-100 text-bg-success">
+            <img src="img/gouda.jpg" class="card-img-top" alt="Queso gouda">
+            <div class="card-body">
+              <h5 class="card-title">Queso Gouda</h5>
+              <p class="card-text">El gouda o gauda es un queso neerlandés denominado así por la ciudad de Gouda. El término "gouda" es hoy en día un nombre genérico, que no está limitado a los quesos de origen neerlandés.</p>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card h-100 text-bg-success">
+            <img src="img/sardo3.jpg"" class="card-img-top" alt="Queso Sardo">
+            <div class="card-body">
+              <h5 class="card-title">Queso Sardo</h5>
+              <p class="card-text">Sardo, Sardo argentino o Quesardo es un queso realizado similar al sardo italiano. Cuando se usa la denominación «sardo», sin más añadidos, normalmente se entiende que se están refiriendo a este queso de Argentina, al ser producidos con leche de vaca, en contraste de leche de oveja del Pecorino Sardo de Cerdeña.</p>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card h-100 text-bg-success">
+            <img src="img/provolone.jpg" class="card-img-top" alt="Queso Provolone">
+            <div class="card-body">
+              <h5 class="card-title">Queso Provolone</h5>
+              <p class="card-text">El provolone es un queso italiano originario del Norte del país, donde se sigue produciendo en piezas de 10 a 15 centímetros con diversas formas.</p>
+            </div>
+          </div>
+        </div>
+    </div>
 
-    </article>
-    
-
-    
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz" crossorigin="anonymous"></script>
 </body>
