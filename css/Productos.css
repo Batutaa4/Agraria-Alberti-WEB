@@ -1,5 +1,17 @@
 .navbar{
     background-color: rgb(0, 92, 0);
+    padding: 10px;  
+}
+
+.navbar a{
+    color: white;
+    margin-left: 20px;
+}
+
+#navbarNav{
+    display: flex;
+    justify-content: flex-end;
+    
 }
 
 .card {
