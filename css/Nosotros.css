@@ -6,6 +6,7 @@
 .navbar a{
     color: white;
     margin-left: 20px;
+    
 }
 
 #navbarNav{
@@ -16,6 +17,42 @@
 
 .sub-title {
     text-align: center;
+    padding: 50px;
+    font-family:fantasy ; color: white; 
 
 
 }
+
+.card {
+    padding: 20px;
+    background-color: rgb(37, 105, 0) !important;
+    
+}
+
+body {
+    background-image:url(/img/pasto.jpg);
+}
+ .card-title {
+    font-family:Verdana, Geneva, Tahoma, sans-serif ; color: white !important;
+    text-align: center;
+
+ }
+    
+ 
+ .card-body {
+    text-align: center;
+ }
+
+ .card-text {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 0;
+ }
+
+
+
+
+
+
+
