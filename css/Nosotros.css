@@ -23,32 +23,44 @@
 
 }
 
-.card {
-    padding: 20px;
-    background-color: rgb(37, 105, 0) !important;
-    
-}
 
 body {
     background-image:url(/img/pasto.jpg);
 }
- .card-title {
-    font-family:Verdana, Geneva, Tahoma, sans-serif ; color: white !important;
-    text-align: center;
 
- }
-    
- 
- .card-body {
-    text-align: center;
- }
 
- .card-text {
+.card-body {
     display: flex;
-    justify-content: center;
+    flex-direction: column;
     align-items: center;
-    margin-bottom: 0;
- }
+    justify-content: center;
+    text-align: center;
+    background-color: rgb(16, 157, 16);
+    height: 100px;
+   
+}
+
+.card-title {
+   
+    text-align: center;
+    color: white !important;
+}
+
+.card-body .btn {
+    margin-top: 10px;
+  }
+
+
+.link-text {
+    text-decoration: none;
+    color: white;
+}
+
+
+
+   
+
+
 
 
 
