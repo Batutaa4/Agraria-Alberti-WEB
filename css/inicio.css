@@ -25,10 +25,9 @@ html, body{
     display: flex;
     align-items: center;
     justify-content: center;
-    background-color: rgba(0, 0, 0, 0.3);
+    background-color: rgba(0, 0, 0, 0.5);
     height: 100%;
     color: white;
-    font-family: Arial, sans-serif;
     text-align: center;
     }
 
@@ -37,6 +36,7 @@ html, body{
         font-size: 28px;
         line-height: 1.5;
         letter-spacing: 1px;
+        font-family: 'Lora', serif;
       }
 
 
@@ -61,6 +61,8 @@ body {
 .navbar a{
     color: white;
     margin-left: 20px;
+    font-family: 'Quicksand', sans-serif;
+    text-transform: uppercase;
 }
 
 #navbarNav{

@@ -6,7 +6,8 @@
 .navbar a{
     color: white;
     margin-left: 20px;
-    
+    font-family:'Quicksand', sans-serif;
+    text-transform: uppercase;
 }
 
 #navbarNav{
