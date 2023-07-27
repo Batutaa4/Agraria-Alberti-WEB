@@ -2,6 +2,8 @@ html, body{
     height: 100%;
     margin: 0;
     padding: 0;
+    font-family: 'Pragati Narrow', sans-serif !important;
+    font-size: 18px;
 }
 
 body {
@@ -42,8 +44,13 @@ article {
 }
 
 .card {
-    width: 18rem;
-    margin: 0 50px;
+    
+    width: 25rem !important;
+    margin: 0 60px;
+    background-color:  rgb(13, 133, 13) !important;
+    height: 18rem !important;
+
+
   }
 
 .center-container {
@@ -51,4 +58,32 @@ article {
     justify-content: center;
     align-items: center;
     height: 100vh;
+    
   }
+
+
+.card-body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+   
+}
+
+.card-title {
+    margin-bottom: 30px !important;
+}
+
+
+.card-text {
+    text-align: center;
+    padding-top: 10px;
+}
+
+
+.card-title,
+.card .card-subtitle,
+.card-text {
+  color: white !important;
+}
