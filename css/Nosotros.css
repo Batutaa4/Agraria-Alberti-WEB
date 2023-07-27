@@ -19,7 +19,9 @@
 .sub-title {
     text-align: center;
     padding: 50px;
-    font-family:fantasy ; color: white; 
+    font-family: 'Lora', serif; color: white;
+    text-transform: uppercase;
+     
 
 
 }
@@ -27,6 +29,7 @@
 
 body {
     background-image:url(/img/pasto.jpg);
+    font-family: 'Lora', serif;
 }
 
 
@@ -51,8 +54,7 @@ body {
     margin-top: 10px;
   }
 
-
-.link-text {
+.buttom-text {
     text-decoration: none;
     color: white;
 }
