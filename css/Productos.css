@@ -11,9 +11,7 @@
 }
 
 #navbarNav{
-    display: flex;
     justify-content: flex-end;
-    
 }
 
 .card {
@@ -24,7 +22,7 @@
 }
  body {
     background-image: url(/img/pasto.jpg);
-    font-family: 'Quicksand', sans-serif;;
+    font-family: 'Quicksand', sans-serif;
     
  }
 

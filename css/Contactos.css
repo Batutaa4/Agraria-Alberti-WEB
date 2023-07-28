@@ -31,14 +31,7 @@ body {
 }
 
 #navbarNav{
-    display: flex;
     justify-content: flex-end;
-    
-}
-
-article {
-    display: flex;
-    justify-content: center;
     
 }
 
@@ -57,8 +50,7 @@ article {
     justify-content: center;
     align-items: center;
     height: 100vh;
-    
-  }
+}
 
 
 .card-body {
