@@ -36,22 +36,11 @@ body {
 }
 
 .card {
-    
-    width: 25rem !important;
-    margin: 0 60px;
-    background-color:  rgb(13, 133, 13) !important;
-    height: 18rem !important;
-
-
-  }
-
-.center-container {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 100vh;
+    max-width: 300px;
+    margin: auto;
+    background-color: rgb(13, 133, 13)  !important;
+    margin-top: 50px;
 }
-
 
 .card-body {
     display: flex;
