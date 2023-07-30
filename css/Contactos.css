@@ -31,10 +31,9 @@ body {
 
 .card {
     max-width: 300px;
-   
     margin: auto;
     background-color: rgb(13, 133, 13)  !important;
-    margin-top: 20px;
+    margin-top: 100px;
 }
 
 .card-body {
@@ -74,7 +73,7 @@ body {
     padding: 10px;
     text-align: center;
     width: 100%;
-    margin-top: auto;
+    margin-top: 210px;
 }
 
 .main-container {
