@@ -31,9 +31,10 @@ body {
 
 .card {
     max-width: 300px;
+   
     margin: auto;
     background-color: rgb(13, 133, 13)  !important;
-    margin-top: 50px;
+    margin-top: 20px;
 }
 
 .card-body {
