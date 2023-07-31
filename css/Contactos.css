@@ -30,7 +30,7 @@ body {
 }
 
 .card {
-    max-width: 300px;
+    max-width: 350px;
     margin: auto;
     background-color: rgb(13, 133, 13)  !important;
     margin-top: 100px;
