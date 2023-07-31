@@ -30,10 +30,10 @@
 .footer {
     background-color: rgb(0, 92, 0);
     color: #999;
-    padding: 10px;
+    padding: 5px;
     text-align: center;
     width: 100%;
-    margin-top: 10px;
+    margin-top: 25px;
     }
 
 
@@ -49,3 +49,11 @@
     flex-direction: column;
     padding-bottom: 50px; /* Añade un espacio en la parte inferior para el footer */
   }
+
+
+  .created-by {
+    font-size: 12px;
+    color: #999;
+    float: right;
+
+}
