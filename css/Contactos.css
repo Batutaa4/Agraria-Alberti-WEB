@@ -42,7 +42,8 @@ body {
     justify-content: center;
     align-items: center;
     height: 100%;
-    font-size: 17px; 
+    font-size: 17px;
+    color: white !important; 
 }
 
 .card-title {
@@ -53,6 +54,7 @@ body {
 .card-text {
     text-align: center;
     padding-top: 10px;
+    
 }
 
 
