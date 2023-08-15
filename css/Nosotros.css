@@ -62,7 +62,7 @@ body {
     color: #999;
     padding: 1px;
     text-align: center;
-    position: sticky;
+    position: fixed;
     bottom: 0;
     width: 100%;
   }
